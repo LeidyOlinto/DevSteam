@@ -1,6 +1,13 @@
-.Logo {
+.logo {
   display: flex;
   align-items: center;
   gap: 20px;
   font-size: 20px;
+}
+
+@media (max-width: 850px){
+  .name{
+   display: none;
+     
+  }
 }

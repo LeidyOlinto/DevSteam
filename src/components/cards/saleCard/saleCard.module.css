@@ -1,10 +1,15 @@
+.image{
+  border-radius: 4px;
+}
 .salecard{
   background: linear-gradient(180deg, #19587B 0%, #2B87AE 100%);
   width: 250px;
+  border-radius: 4px;
 }
 .info {
   padding: 20px;
   margin: 0; 
+  border-radius: 4px;
 }
 .title {
   text-transform: uppercase;
@@ -14,6 +19,7 @@
   display: flex;
   background-color:#344654;
   margin: 15px 0;
+  border-radius: 4px;
 }
 .percent{
   font-weight: 700;
@@ -23,6 +29,7 @@
   background: #4C6B22;
   display: flex;
   align-items: center;
+  border-radius: 4px;
   
 }
 .price{

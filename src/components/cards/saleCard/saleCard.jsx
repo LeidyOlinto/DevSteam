@@ -5,7 +5,10 @@ import Image from "next/image";
 export default function SaleCard() {
   return (
     <div className={styles.salecard}>
-      <Image src="/products/league-of-legends.jpg" width={250} height={300} />
+      <Image className={styles.image}
+       src="/products/league-of-legends.jpg"
+        width={250} 
+        height={300} />
 
       <div className={styles.info}>
         <h3 className={styles.title}>OFERTA EXCLUSIVA</h3>
